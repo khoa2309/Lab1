@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    height: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    color: gray;
+    margin: 0;
+}
+
+button {
+    width: 100px;
+    padding: 8px 0;
+    background-color: blue;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}
